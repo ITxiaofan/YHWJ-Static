@@ -1,0 +1,247 @@
+/* 清空默认边距 */
+body,div,p,h1,h2,h3,h4,ul,li,a,span{
+    padding: 0;
+    margin: 0;
+}
+/* 头部 start */
+header{
+    width: 100%;
+    height:100px;
+
+}
+.container{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+header .nav-left{
+   line-height: 100px;
+   float: left;
+    width: 235px;
+}
+header .nav-left #logo{
+    padding: 22px;
+
+}
+header .nav-left p{
+    display: inline-block;
+    font-family:'黑体';
+    height: 0px;
+    float: left;
+    
+}
+header .nav-left .one{
+    font-size: 19px;
+    margin-left: 107px;
+    margin-top: -160px;
+ 
+}
+header .nav-left p:last-child{
+    margin-left: 107px;
+    margin-top: -125px;
+    font-size: 15px;
+}
+header ul{
+    width: 100%;
+    height: 80px;
+}
+header ul li{
+    
+    list-style: none;
+    font-family: "黑体";
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    padding: 10px;
+    margin-left: 48px;
+
+}
+header ul a{
+    text-decoration: none;
+    font-family:"黑体";
+    color: black;
+}
+
+header .nav-right{
+    float: right;
+    margin-top: -76px;
+    margin-right: 11px;
+}
+header .nav-right span:last-child{
+    color: #cb3f5a;
+    font-size: 24px;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+
+
+/* 头部 end */
+
+/*内容 star */
+/* ============ 轮播 star ============== */
+.Carousel li{
+    list-style: none;
+    margin-top: -10px;
+
+}
+.Carousel img{
+    margin-top: -40px;
+    width: 100%;
+}
+
+/* ============ 轮播 end ============== */
+.contain{
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: #ddd; */
+}
+.contain .top{
+    text-align: center;
+    padding-top: 9px;
+
+}
+.contain .top .active,.music{
+
+    padding: 9px 54px;
+}
+.contain .top .active{
+    color: #fff;
+    background-color: #25a5ff;
+}
+.contain .top .music{
+    background-color: #fff;
+    color: #25a5ff;
+}
+.contain .sjx{
+    /* float: left; */
+    display: inline-block;
+    margin-top: -28px;
+    margin-left: 421px;
+    margin-bottom: 8px;
+    /* width: 0; */
+    /* height: 0; */
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.contain li{
+    list-style: none;
+    display: inline-block;
+}
+.contain .list{
+    
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.contain .content .top{
+    color: #25a5ff;
+    font-size: 23px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+
+}
+
+.contain .content .version{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.contain .content p{
+    width: 500px;
+    margin:0 auto;
+    
+
+}
+.contain .content img{
+    display: inline-block;
+}
+.contain .Photo ul{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+/* ====================新闻中心============================= */
+.contain .version .left>img{
+    margin-left:-99px;
+    display: inline-block;
+}
+.contain .version .left>ul{
+    float: left;
+    margin-left: 263px;
+    display: inline-block; 
+    margin-top: -342px;
+}
+
+.version .left .title{
+    width:334px;
+    font-size: 17px;
+    font-family: "黑体";
+}
+.version .left p{
+    width: 334px;
+    height: 66px;
+    overflow: hidden;
+    text-indent: 20px;
+    margin-top: 5px;
+    color: rgb(151, 151, 151);
+}
+
+.version .right li{
+    margin-top:6px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    width: 290px;
+    border-bottom: 1px dashed #aaa;
+}
+/* 内容 end */
+
+
+/* 底部 star */
+footer{
+    bottom: 0px;
+    margin-top: 90px;
+    width: 100%;
+    /* height: 202px; */
+    background-color: #696969;
+}
+footer .tb{
+    width: 156px;
+    float: left;
+    margin-top: 46px;
+    margin-left: 62px;
+
+}
+footer p{
+    color: #fff;
+    line-height: 33px;
+    
+}
+footer .ewm{
+    float: right;
+    margin-top: 45px;
+}
+footer span{
+    width: 200px;
+
+}
+footer .bz{
+    display: inline-block;
+    text-align:center;
+    width:662px;
+    margin:0 auto; 
+}
+footer .bz p:first-child{
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+footer .bz p:last-child{
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+/* 底部 end */
